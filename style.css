@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+}
+
+.navv{
+height: 100px;
+ margin-left: 0px;
+ margin-top: 0px;
+ border-radius: 0px;
+}
+
+.grp{
+ height: 93px;
+  width: 100px;
+  margin-left: 104px;
+  margin-top: 24px;
+  border-radius: 0px;
+}
+
+#links{
+ font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#home{
+  height: 20px;
+   border-radius: nullpx;
+  color: #7C0B0B;
+}
+ 
+#My{
+background-color: #7C0B0B;
+color: #FFFFFF;
+ border-radius: 10px;
+}
+#hero{
+background-image: url(./Images/Rectangle\ 1.png);
+height: calc(100vh - 100px);
+ }
+
+#join{
+ font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  width: 396px;
+  height: 74px;
+   margin-left: calc(50% - 396px/2 + 7px);
+   margin-top: 431px;
+}
+
+.match{
+ background-color:#FFFFFF; ;
+width: 147px;
+  height: 40px;
+  border-radius: 10px;
+   align-items: center;
+   padding: 10px;
+   gap: 10px;
+}
+
+.match h3{
+ font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 127px;
+   height: 20px;
+   color: #7C0B0B;
+   height: 20px;
+ text-align: center;
+
+}
+
+.con{
+  border:  1px solid rgba(124, 11, 11, 0.4);
+}
