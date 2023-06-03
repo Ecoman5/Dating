@@ -570,13 +570,15 @@ width: 695px;
     text-decoration: none;
     color: #FFFFFF;
    }
+   .mobile-las{
+    display: none;
+   }
    
 @media(max-width:500px){
-.legin{
-  width: 500px;
-}
+
+
 #join{
-  font-size: x-large;
+  font-size: large;
   align-items: center;
   text-align: center;
 }
@@ -660,17 +662,46 @@ padding-left: 10px;
  }
  .whatev{
  display: flex;
+ flex-direction: column;
  }
  .legin .get{
-  width: 100%;
+  width: 450px;
   margin-top: -80px;
+  margin-left: 7%;
+  
  }
-    .las p {
+    .las{
+      display: none;
+    }
+
+     .mobile-las{
       display: flex;
-      line-height: 25px;
-      margin-top: 50px;
+      justify-content: space-around;
+      text-align: center;
     }
+    .mobile-las a{
+      text-decoration: none;
+      color: #FFFFFF;
+      align-items: center;
+      
+    
+    }
+      .mobile{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        margin-top: 50px;
+       
+
+      }
     .logo {
-      margin-top: -50px;
+      margin-top: 200px;
+      align-items: center;
+      justify-content: center;
+      margin-right: 30%;
+    
     }
-}
+    .legin{
+      height: 500px;
+    }
+  }
