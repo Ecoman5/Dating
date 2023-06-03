@@ -575,6 +575,15 @@ width: 695px;
 .legin{
   width: 500px;
 }
+#join{
+  font-size: x-large;
+  align-items: center;
+  text-align: center;
+}
+.match{
+  width: 150px;
+  align-items: center;
+}
 .legin .get{
   width: 250px;
 }
